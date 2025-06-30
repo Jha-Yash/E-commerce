@@ -1,0 +1,45 @@
+.box {
+    margin-top: 550px;
+    margin-left: 200px;
+    height: 40vh;
+    width: 75%;
+    
+    display: flex;  /* Enables Flexbox */
+    flex-direction: column; /* Stacks elements (h1, p) vertically */
+    align-items: center;  /* Centers items horizontally */
+    justify-content: center;  /* Centers items vertically */
+    
+    background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+.box h1{
+    font-size: 3em;
+    
+  
+
+}
+.box p{
+   
+    font-size: 1.5em;
+    margin-top: -20px;
+}
+.box input{
+    padding: 10px 20px;
+    width: 400px;
+    border-radius: 20px;
+    text-align: left;
+    color: rgb(179, 168, 168);
+    border: 1px solid rgb(197, 185, 185);
+}
+.box button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    margin-top: -40px;
+    margin-left: 338px;
+}
+

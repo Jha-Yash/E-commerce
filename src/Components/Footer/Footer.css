@@ -1,0 +1,36 @@
+.foot{
+    margin-top: 50px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+}
+.com {
+    
+    display: flex;
+  list-style: none;
+  gap: 50px;
+  font-size: 1.2em;
+  align-items: center;
+  margin-left: 430px;;
+    
+    
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+}
+.logo p{
+  font-weight: bold;
+  font-size: 1.8em;
+  margin-top: 40px;
+}
+  
+ 
+ 
+
+.icons img{
+  margin-left: 10px;
+   
+}

@@ -1,0 +1,372 @@
+/* .card{
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  max-width: 250px;
+  display: inline-block;
+}
+.card-pfp{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.title{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: hsl(0, 1%, 19%);
+}
+
+.content{
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 1%, 26%);
+} */
+
+
+                                           /* todo */
+/* body{
+   background-color: black; 
+}                                          
+.to-do{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1{
+  font-size: 4rem;
+}
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add{
+  background-color: hsl(120, 52%, 52%);
+}
+.add:hover{
+  background-color: hsl(120, 52%, 42%);
+}
+.del{
+  background-color: hsl(8, 72%, 48%);
+}
+.del:hover{
+  background-color: hsl(8, 72%, 38%);
+}
+.up{
+  background-color: hsl(189, 78%, 47%);
+}
+.up:hover{
+  background-color: hsl(189, 78%, 37%);
+}
+.down{
+  background-color: hsl(189, 78%, 47%);
+}
+.down:hover{
+  background-color: hsl(189, 78%, 37%);
+}
+input{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgb(175, 174, 174);
+  border-radius: 5px;
+  color: gray;
+}
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 85%,0.75);
+  border-radius: 5px;
+  display:flex;
+  align-items: center; 
+}
+.text{
+   flex:1;/*shortcut which help items to take as much as space available on web page 
+}
+.del,.up,.down{
+  padding: 8px 12px ;
+  margin-left: 10px;
+  font-size: 1.4rem;
+} */
+
+
+                                  /* digitalclock */
+/* body{
+  background-image: url(assets/$RA7DOV4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  
+}    
+.clock-container{
+  backdrop-filter: blur(5px);
+  padding: 10px 20px;
+ 
+} 
+.clock{
+  color: white;
+  font-weight: bold;
+  font-size: 7em;
+}                        */
+
+                   /* useContext */
+/* .box{
+  border: 3px solid black;
+  padding: 25px;
+} */
+
+
+/* .cont{
+  border: 5px solid black;
+  border-radius: 10px;
+  height: 150px;
+  width: 350px;
+  text-align: center;
+  margin: auto;
+  margin-top: 200px;
+} 
+.watch{
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 4rem;
+ 
+}
+button{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 3px;
+}
+.sbut{
+  background-color: hsl(120, 67%, 47%);
+}
+.sbut:hover{
+  background-color: hsl(120, 67%, 57%);
+}
+.pbut{
+  background-color: hsl(6, 87%, 40%);
+}
+.pbut:hover{
+  background-color: hsl(6, 87%, 50%);
+}
+.rbut{
+  background-color: hsl(200, 89%, 35%);
+}
+.rbut:hover{
+  background-color: hsl(200, 89%, 45%);
+} */
+
+
+                                                   /* brandpage */
+body{
+  height: 120vh;
+  width: 100%;
+  overflow-x: hidden;
+}                                                 
+.navb{
+ margin-top: -14px;
+  display: flex;
+  padding: 10px 20px;
+  justify-content:space-between;
+  /* border-bottom: 1px solid rgb(210, 207, 207); */
+  
+ 
+}
+.navb p{
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+.pic{
+  width: 70px;
+  height: 50px;
+ 
+}
+.bar {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  font-size: 1.2em;
+  align-items: center;
+  margin: auto;
+
+}
+.bar li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  
+}
+.bar hr{
+  border: none;
+  width: 80%;
+  height: 3px;
+ 
+  border-radius: 10px;
+  background-color: red;
+  
+  
+}
+
+.but{
+  padding: 5px 7px;
+  margin-top: 5px;
+  width: 100px;
+  background-color: rgb(122, 111, 111);
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-right: 10px;
+ 
+}
+.cart{
+  width: 50px;
+  height: 40px;
+  /* align-items: flex-end; */
+  cursor: pointer;
+  background-color: white;
+}
+.but:active{
+  background-color: rgb(122, 111, 141);
+}
+
+.conthold{
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+  margin-top: -30px;
+  
+}
+.textcont{
+  height: 600px;
+  width: 650px;
+  margin-left: 140px;
+  
+ 
+  /* border: 2px solid black; */
+}
+.textcont2{
+  height: 600px;
+  width: 600px;
+ 
+  /* border: 2px solid black; */
+  display: flex;
+}
+.text{
+  height: 300px;
+  width: 600px;
+  /* border: 2px solid black; */
+  margin-top: 20px;
+  margin-left: 20px;
+  
+}
+.text h1{
+  margin-top: 0;
+  font-size: 80px;
+  font-weight: 800;
+  display: flex;
+  flex-wrap: wrap;
+  
+ 
+}
+.text2{
+  height: 50px;
+  width: 400px;
+  /* border: 2px solid black; */
+  margin-top: 40px;
+  margin-left: 87px;
+  
+}
+.text2 p{
+  font-weight: 600;
+  color: gray;
+}
+.butt{
+  margin-top: 60px;
+  margin-left: 67px;
+ 
+ 
+  /* border: 2px solid black; */
+  
+}
+.butt1{
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: whitesmoke;
+  background-color: hsl(0, 100%, 50%);
+  margin-right: 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  margin-top: -100px;
+}
+.butt1:hover{
+   background-color: hsl(0, 100%, 70%);
+   
+}
+/* .butt2{
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: hsl(0, 1%, 60%);
+  margin-right: 30px;
+  cursor: pointer;
+}
+.butt2:hover{
+  background-color: hsl(0, 1%, 80%); 
+  
+}*/
+.text3{
+ 
+  margin-left: 20px;
+  /* border: 2px solid black; */
+  
+}
+.text3 p{
+  color: gray;
+}
+.am{
+  width: 35px;
+  height: 25px;
+  cursor: pointer;
+}
+.fl{
+  width: 35px;
+  height: 25px;
+  cursor: pointer;
+}
+.bi{
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
